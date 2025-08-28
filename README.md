@@ -14,10 +14,16 @@ An MCP (Model Context Protocol) server that provides AI control over Tuya smart 
 
 ## Prerequisites
 
-### 1. Install Dependencies
+### 1. Install uvx (recommended)
 
 ```bash
-pip install -r requirements.txt
+# Install uvx if you don't have it
+pip install uvx
+```
+
+Alternatively, you can install directly with pip:
+```bash
+pip install .
 ```
 
 ### 2. Set Up Your Tuya Devices
@@ -36,8 +42,11 @@ After running the TinyTuya wizard, you'll have a `devices.json` file with your d
 ### 1. Install and Set Up
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# Install with uvx (recommended)
+uvx install .
+
+# Or install with pip
+pip install .
 
 # Run TinyTuya wizard to extract device credentials
 python -m tinytuya wizard
@@ -48,7 +57,14 @@ python -m tinytuya wizard
 ### 2. Run the Server
 
 ```bash
-python run_server.py
+# With uvx
+uvx tuya-mcp-server
+
+# Or if installed with pip
+tuya-mcp-server
+
+# Or run directly from source
+python main.py
 ```
 
 ### 3. Add to Claude Desktop
@@ -62,8 +78,21 @@ Add this configuration to your Claude Desktop config file:
 {
   "mcpServers": {
     "tuya-smart-home": {
-      "command": "python",
-      "args": ["/full/path/to/aziz/run_server.py"],
+      "command": "uvx",
+      "args": ["tuya-mcp-server"],
+      "env": {}
+    }
+  }
+}
+```
+
+Or if you installed with pip:
+```json
+{
+  "mcpServers": {
+    "tuya-smart-home": {
+      "command": "tuya-mcp-server",
+      "args": [],
       "env": {}
     }
   }
@@ -187,12 +216,12 @@ Run the TinyTuya wizard: `python -m tinytuya wizard`
 
 ### Project Structure
 ```
-aziz/
+tuya-mcp-server/
 ├── src/
 │   └── tuya_mcp_server.py    # Main server implementation
-├── run_server.py             # Convenience runner script
-├── requirements.txt          # Python dependencies  
-├── devices.json              # Device credentials (created by wizard)
+├── main.py                   # Direct entry point
+├── pyproject.toml           # Project configuration and dependencies
+├── devices.json             # Device credentials (created by wizard)
 ├── devices.json.example      # Example device configuration
 └── README.md                 # This file
 ```

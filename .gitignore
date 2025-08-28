@@ -1,6 +1,8 @@
-# Device credentials - DO NOT COMMIT
+# Device credentials and personal data - DO NOT COMMIT
 devices.json
 snapshot.json
+tinytuya.json
+tuya-raw.json
 
 # Python
 __pycache__/

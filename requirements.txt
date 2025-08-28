@@ -1,4 +1,0 @@
-mcp
-tinytuya
-pydantic
-aiofiles

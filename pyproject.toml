@@ -3,7 +3,7 @@ name = "tuya-mcp-server"
 version = "0.1.0"
 description = "MCP server for controlling Tuya smart home devices"
 authors = [
-    {name = "Tuya MCP Server Contributors", email = ""}
+    {name = "akari2600", email = ""}
 ]
 dependencies = [
     "mcp",

@@ -2,6 +2,17 @@
 
 An MCP (Model Context Protocol) server that provides AI control over Tuya smart home devices using the TinyTuya library. Control your smart lights, outlets, switches, and other Tuya devices through natural language with Claude or other MCP-compatible AI assistants.
 
+## Quick Run with uvx
+
+```bash
+# Install and run in one command
+uvx run tuya-mcp-server
+
+# Or install first, then run
+uvx install tuya-mcp-server
+uvx run tuya-mcp-server
+```
+
 ## Features
 
 - 🏠 **Device Discovery** - Automatically scan your network for Tuya devices
@@ -17,6 +28,10 @@ An MCP (Model Context Protocol) server that provides AI control over Tuya smart 
 ### 1. Install Dependencies
 
 ```bash
+# Using uvx (recommended)
+uvx install -r requirements.txt
+
+# Or using pip
 pip install -r requirements.txt
 ```
 
@@ -36,8 +51,11 @@ After running the TinyTuya wizard, you'll have a `devices.json` file with your d
 ### 1. Install and Set Up
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# Install dependencies with uvx
+uvx install -r requirements.txt
+
+# Or install the package directly
+uvx install tuya-mcp-server
 
 # Run TinyTuya wizard to extract device credentials
 python -m tinytuya wizard
@@ -48,7 +66,11 @@ python -m tinytuya wizard
 ### 2. Run the Server
 
 ```bash
-python run_server.py
+# Using uvx (recommended)
+uvx run tuya-mcp-server
+
+# Or run directly with Python
+python main.py
 ```
 
 ### 3. Add to Claude Desktop
@@ -62,8 +84,8 @@ Add this configuration to your Claude Desktop config file:
 {
   "mcpServers": {
     "tuya-smart-home": {
-      "command": "python",
-      "args": ["/full/path/to/aziz/run_server.py"],
+      "command": "uvx",
+      "args": ["run", "tuya-mcp-server"],
       "env": {}
     }
   }
@@ -187,12 +209,12 @@ Run the TinyTuya wizard: `python -m tinytuya wizard`
 
 ### Project Structure
 ```
-aziz/
+tuya-mcp-server/
 ├── src/
 │   └── tuya_mcp_server.py    # Main server implementation
-├── run_server.py             # Convenience runner script
+├── main.py                   # Entry point for uvx
+├── pyproject.toml           # Project configuration
 ├── requirements.txt          # Python dependencies  
-├── devices.json              # Device credentials (created by wizard)
 ├── devices.json.example      # Example device configuration
 └── README.md                 # This file
 ```

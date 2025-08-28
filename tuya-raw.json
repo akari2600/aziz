@@ -1,0 +1,1617 @@
+{
+    "result": [
+        {
+            "active_time": 1756360499,
+            "biz_type": 18,
+            "category": "dj",
+            "create_time": 1643772306,
+            "icon": "smart/device_icon/az1611444741843yyMpT/ebda5b99a460c57d9dyrpz174478721318298.png",
+            "id": "ebda5b99a460c57d9dyrpz",
+            "ip": "172.56.169.169",
+            "lat": "0",
+            "local_key": "Ok}p:5}khBr@f+Xw",
+            "lon": "0",
+            "model": "",
+            "name": "kitchen lamp",
+            "online": true,
+            "owner_id": "262432158",
+            "product_id": "jxfp7dobvcneylao",
+            "product_name": "Merkury BW904 Smart Bulb ",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": true
+                },
+                {
+                    "code": "work_mode",
+                    "value": "white"
+                },
+                {
+                    "code": "bright_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "colour_data_v2",
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
+                },
+                {
+                    "code": "scene_data_v2",
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":200,\"h\":0,\"s\":0,\"temperature\":1000,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":0}]}"
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "control_data",
+                    "value": ""
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1756360260670Za5H3",
+            "update_time": 1756360502,
+            "uuid": "cffe128f5ec3dcee",
+            "mapping": {
+                "20": {
+                    "code": "switch_led",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "21": {
+                    "code": "work_mode",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "white",
+                            "colour",
+                            "scene",
+                            "music"
+                        ]
+                    }
+                },
+                "22": {
+                    "code": "bright_value_v2",
+                    "type": "Integer",
+                    "values": {
+                        "min": 10,
+                        "max": 1000,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "24": {
+                    "code": "colour_data_v2",
+                    "type": "Json",
+                    "raw_values": "{\"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}}",
+                    "values": {
+                        "h": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        }
+                    }
+                },
+                "25": {
+                    "code": "scene_data_v2",
+                    "type": "Json",
+                    "raw_values": "{\"scene_num\":{\"min\":1,\"scale\":0,\"max\":8,\"step\":1},\"scene_units\": {\"unit_change_mode\":{\"range\":[\"static\",\"jump\",\"gradient\"]},\"unit_switch_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"unit_gradient_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"bright\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"temperature\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}}}",
+                    "values": {
+                        "scene_num": {
+                            "min": 1,
+                            "scale": 0,
+                            "max": 8,
+                            "step": 1
+                        },
+                        "scene_units": {
+                            "unit_change_mode": {
+                                "range": [
+                                    "static",
+                                    "jump",
+                                    "gradient"
+                                ]
+                            },
+                            "unit_switch_duration": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 100,
+                                "step": 1
+                            },
+                            "unit_gradient_duration": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 100,
+                                "step": 1
+                            },
+                            "bright": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "temperature": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "h": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 360,
+                                "step": 1
+                            },
+                            "s": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "v": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 1000,
+                                "step": 1
+                            }
+                        }
+                    }
+                },
+                "26": {
+                    "code": "countdown_1",
+                    "type": "Integer",
+                    "values": {
+                        "min": 0,
+                        "max": 86400,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "28": {
+                    "code": "control_data",
+                    "type": "Json",
+                    "raw_values": "{\"change_mode\":{\"range\":[\"direct\",\"gradient\"]}, \"bright\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"temperature\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "change_mode": {
+                            "range": [
+                                "direct",
+                                "gradient"
+                            ]
+                        },
+                        "bright": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "temperature": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "h": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "active_time": 1756360491,
+            "biz_type": 18,
+            "category": "dj",
+            "create_time": 1646276765,
+            "icon": "smart/device_icon/az1611444741843yyMpT/1701370229.599879.png",
+            "id": "ebffc840d408df347cpfka",
+            "ip": "172.56.169.169",
+            "lat": "0",
+            "local_key": "1:Ue};[sqC:nLGXR",
+            "lon": "0",
+            "model": "",
+            "name": "Floor Lamp",
+            "online": true,
+            "owner_id": "262432158",
+            "product_id": "jxfp7dobvcneylao",
+            "product_name": "Merkury BW904 Smart Bulb ",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": true
+                },
+                {
+                    "code": "work_mode",
+                    "value": "white"
+                },
+                {
+                    "code": "bright_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "colour_data_v2",
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
+                },
+                {
+                    "code": "scene_data_v2",
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":200,\"h\":0,\"s\":0,\"temperature\":1000,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":0}]}"
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "control_data",
+                    "value": ""
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1756360260670Za5H3",
+            "update_time": 1756360493,
+            "uuid": "7a069479624747d0",
+            "mapping": {
+                "20": {
+                    "code": "switch_led",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "21": {
+                    "code": "work_mode",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "white",
+                            "colour",
+                            "scene",
+                            "music"
+                        ]
+                    }
+                },
+                "22": {
+                    "code": "bright_value_v2",
+                    "type": "Integer",
+                    "values": {
+                        "min": 10,
+                        "max": 1000,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "24": {
+                    "code": "colour_data_v2",
+                    "type": "Json",
+                    "raw_values": "{\"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}}",
+                    "values": {
+                        "h": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        }
+                    }
+                },
+                "25": {
+                    "code": "scene_data_v2",
+                    "type": "Json",
+                    "raw_values": "{\"scene_num\":{\"min\":1,\"scale\":0,\"max\":8,\"step\":1},\"scene_units\": {\"unit_change_mode\":{\"range\":[\"static\",\"jump\",\"gradient\"]},\"unit_switch_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"unit_gradient_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"bright\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"temperature\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}}}",
+                    "values": {
+                        "scene_num": {
+                            "min": 1,
+                            "scale": 0,
+                            "max": 8,
+                            "step": 1
+                        },
+                        "scene_units": {
+                            "unit_change_mode": {
+                                "range": [
+                                    "static",
+                                    "jump",
+                                    "gradient"
+                                ]
+                            },
+                            "unit_switch_duration": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 100,
+                                "step": 1
+                            },
+                            "unit_gradient_duration": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 100,
+                                "step": 1
+                            },
+                            "bright": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "temperature": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "h": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 360,
+                                "step": 1
+                            },
+                            "s": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "v": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 1000,
+                                "step": 1
+                            }
+                        }
+                    }
+                },
+                "26": {
+                    "code": "countdown_1",
+                    "type": "Integer",
+                    "values": {
+                        "min": 0,
+                        "max": 86400,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "28": {
+                    "code": "control_data",
+                    "type": "Json",
+                    "raw_values": "{\"change_mode\":{\"range\":[\"direct\",\"gradient\"]}, \"bright\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"temperature\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "change_mode": {
+                            "range": [
+                                "direct",
+                                "gradient"
+                            ]
+                        },
+                        "bright": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "temperature": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "h": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "active_time": 1756360486,
+            "biz_type": 18,
+            "category": "dj",
+            "create_time": 1611523332,
+            "icon": "smart/device_icon/az1611444741843yyMpT/1673368440.189060.png",
+            "id": "eb282efc7ce7695672xncs",
+            "ip": "172.56.169.169",
+            "lat": "0",
+            "local_key": "<pfw'qJX!^F2'rAW",
+            "lon": "0",
+            "model": "",
+            "name": "workbench ceiling left",
+            "online": true,
+            "owner_id": "262432158",
+            "product_id": "cqekgipywslyavsr",
+            "product_name": "Merkury BW904 Smart Bulb",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": true
+                },
+                {
+                    "code": "work_mode",
+                    "value": "white"
+                },
+                {
+                    "code": "bright_value",
+                    "value": 255
+                },
+                {
+                    "code": "colour_data",
+                    "value": "{\"h\":0.0,\"s\":255.0,\"v\":255.0}"
+                },
+                {
+                    "code": "scene_data",
+                    "value": "{\"h\":37.5,\"s\":255.0,\"v\":189.0}"
+                },
+                {
+                    "code": "flash_scene_1",
+                    "value": "{\"bright\":255,\"frequency\":50,\"hsv\":[{\"h\":120.0,\"s\":255.0,\"v\":255.0}],\"temperature\":255}"
+                },
+                {
+                    "code": "flash_scene_2",
+                    "value": "{\"bright\":255,\"frequency\":50,\"hsv\":[{\"h\":0.0,\"s\":255.0,\"v\":255.0},{\"h\":120.0,\"s\":255.0,\"v\":255.0},{\"h\":240.0,\"s\":255.0,\"v\":255.0}],\"temperature\":255}"
+                },
+                {
+                    "code": "flash_scene_3",
+                    "value": "{\"bright\":255,\"frequency\":50,\"hsv\":[{\"h\":0.0,\"s\":255.0,\"v\":255.0}],\"temperature\":255}"
+                },
+                {
+                    "code": "flash_scene_4",
+                    "value": "{\"bright\":255,\"frequency\":50,\"hsv\":[{\"h\":0.0,\"s\":255.0,\"v\":255.0},{\"h\":120.0,\"s\":255.0,\"v\":255.0},{\"h\":60.0,\"s\":255.0,\"v\":255.0},{\"h\":300.0,\"s\":255.0,\"v\":255.0},{\"h\":240.0,\"s\":255.0,\"v\":255.0}],\"temperature\":255}"
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1756360260670Za5H3",
+            "update_time": 1756360488,
+            "uuid": "c431055def4854b3",
+            "mapping": {
+                "1": {
+                    "code": "switch_led",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "2": {
+                    "code": "work_mode",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "white",
+                            "colour"
+                        ]
+                    }
+                },
+                "3": {
+                    "code": "bright_value",
+                    "type": "Integer",
+                    "values": {
+                        "min": 25,
+                        "scale": 0,
+                        "unit": "",
+                        "max": 255,
+                        "step": 1
+                    }
+                },
+                "5": {
+                    "code": "colour_data",
+                    "type": "Json",
+                    "raw_values": "{\"h\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "h": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                },
+                "6": {
+                    "code": "scene_data",
+                    "type": "Json",
+                    "raw_values": "{\"h\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "h": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                },
+                "7": {
+                    "code": "flash_scene_1",
+                    "type": "Json",
+                    "raw_values": "{\"h\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "h": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                },
+                "8": {
+                    "code": "flash_scene_2",
+                    "type": "Json",
+                    "raw_values": "{\"h\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "h": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                },
+                "9": {
+                    "code": "flash_scene_3",
+                    "type": "Json",
+                    "raw_values": "{\"h\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "h": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                },
+                "10": {
+                    "code": "flash_scene_4",
+                    "type": "Json",
+                    "raw_values": "{\"h\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":1,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "h": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 1,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "active_time": 1756360480,
+            "biz_type": 18,
+            "category": "dj",
+            "create_time": 1748323281,
+            "icon": "smart/icon/ay1480002761059me2zH/d978444634092cd71fb315c6281e2a35.png",
+            "id": "ebc63c143ab859fbe0gsqv",
+            "ip": "172.56.169.169",
+            "lat": "0",
+            "local_key": "y^>W_h3rAh*yVkfc",
+            "lon": "0",
+            "model": "GN-BW413-999",
+            "name": "bedroom fan light 3",
+            "online": true,
+            "owner_id": "262432158",
+            "product_id": "dtyjge1wpicrnvyd",
+            "product_name": "Geeni BW413 Smart Bulb",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": true
+                },
+                {
+                    "code": "work_mode",
+                    "value": "white"
+                },
+                {
+                    "code": "bright_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "temp_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "colour_data_v2",
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
+                },
+                {
+                    "code": "scene_data_v2",
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":200,\"h\":0,\"s\":0,\"temperature\":0,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":0}]}"
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "control_data",
+                    "value": ""
+                },
+                {
+                    "code": "rhythm_mode",
+                    "value": "AAAAAAA="
+                },
+                {
+                    "code": "sleep_mode",
+                    "value": "AAA="
+                },
+                {
+                    "code": "wakeup_mode",
+                    "value": "AAA="
+                },
+                {
+                    "code": "power_memory",
+                    "value": "AAEAAAPoA+gD6APo"
+                },
+                {
+                    "code": "cycle_timing",
+                    "value": "AAAA"
+                },
+                {
+                    "code": "random_timing",
+                    "value": "AAAA"
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1756360260670Za5H3",
+            "update_time": 1756360481,
+            "uuid": "6c7733b08802cd35",
+            "mapping": {
+                "20": {
+                    "code": "switch_led",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "21": {
+                    "code": "work_mode",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "white",
+                            "colour",
+                            "scene",
+                            "music"
+                        ]
+                    }
+                },
+                "22": {
+                    "code": "bright_value_v2",
+                    "type": "Integer",
+                    "values": {
+                        "min": 10,
+                        "max": 1000,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "23": {
+                    "code": "temp_value_v2",
+                    "type": "Integer",
+                    "values": {
+                        "min": 0,
+                        "max": 1000,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "24": {
+                    "code": "colour_data_v2",
+                    "type": "Json",
+                    "raw_values": "{\"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}}",
+                    "values": {
+                        "h": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        }
+                    }
+                },
+                "25": {
+                    "code": "scene_data_v2",
+                    "type": "Json",
+                    "raw_values": "{\"scene_num\":{\"min\":1,\"scale\":0,\"max\":8,\"step\":1},\"scene_units\": {\"unit_change_mode\":{\"range\":[\"static\",\"jump\",\"gradient\"]},\"unit_switch_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"unit_gradient_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"bright\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"temperature\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}}}",
+                    "values": {
+                        "scene_num": {
+                            "min": 1,
+                            "scale": 0,
+                            "max": 8,
+                            "step": 1
+                        },
+                        "scene_units": {
+                            "unit_change_mode": {
+                                "range": [
+                                    "static",
+                                    "jump",
+                                    "gradient"
+                                ]
+                            },
+                            "unit_switch_duration": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 100,
+                                "step": 1
+                            },
+                            "unit_gradient_duration": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 100,
+                                "step": 1
+                            },
+                            "bright": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "temperature": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "h": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 360,
+                                "step": 1
+                            },
+                            "s": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "v": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 1000,
+                                "step": 1
+                            }
+                        }
+                    }
+                },
+                "26": {
+                    "code": "countdown_1",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "s",
+                        "min": 0,
+                        "max": 86400,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "28": {
+                    "code": "control_data",
+                    "type": "Json",
+                    "raw_values": "{\"change_mode\":{\"range\":[\"direct\",\"gradient\"]}, \"bright\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"temperature\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "change_mode": {
+                            "range": [
+                                "direct",
+                                "gradient"
+                            ]
+                        },
+                        "bright": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "temperature": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "h": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                },
+                "30": {
+                    "code": "rhythm_mode",
+                    "type": "Raw",
+                    "values": {
+                        "maxlen": "255"
+                    }
+                },
+                "31": {
+                    "code": "sleep_mode",
+                    "type": "Raw",
+                    "values": {
+                        "maxlen": "255"
+                    }
+                },
+                "32": {
+                    "code": "wakeup_mode",
+                    "type": "Raw",
+                    "values": {
+                        "maxlen": "255"
+                    }
+                },
+                "33": {
+                    "code": "power_memory",
+                    "type": "Raw",
+                    "values": {}
+                },
+                "209": {
+                    "code": "cycle_timing",
+                    "type": "Raw",
+                    "values": {}
+                },
+                "210": {
+                    "code": "random_timing",
+                    "type": "Raw",
+                    "values": {}
+                }
+            }
+        },
+        {
+            "active_time": 1756360475,
+            "biz_type": 18,
+            "category": "dj",
+            "create_time": 1755285614,
+            "icon": "smart/icon/ay1480002761059me2zH/d978444634092cd71fb315c6281e2a35.png",
+            "id": "ebb1807f35a62c1ea11idr",
+            "ip": "172.56.169.169",
+            "lat": "0",
+            "local_key": "0@c-q$2S:x3*2n_(",
+            "lon": "0",
+            "model": "GN-BW413-999",
+            "name": "desk light",
+            "online": true,
+            "owner_id": "262432158",
+            "product_id": "dtyjge1wpicrnvyd",
+            "product_name": "Geeni BW413 Smart Bulb",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": true
+                },
+                {
+                    "code": "work_mode",
+                    "value": "white"
+                },
+                {
+                    "code": "bright_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "temp_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "colour_data_v2",
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
+                },
+                {
+                    "code": "scene_data_v2",
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":200,\"h\":0,\"s\":0,\"temperature\":0,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":0}]}"
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "control_data",
+                    "value": ""
+                },
+                {
+                    "code": "rhythm_mode",
+                    "value": "AAAAAAA="
+                },
+                {
+                    "code": "sleep_mode",
+                    "value": "AAA="
+                },
+                {
+                    "code": "wakeup_mode",
+                    "value": "AAA="
+                },
+                {
+                    "code": "power_memory",
+                    "value": "AAEAAAPoA+gD6APo"
+                },
+                {
+                    "code": "cycle_timing",
+                    "value": "AAAA"
+                },
+                {
+                    "code": "random_timing",
+                    "value": "AAAA"
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1756360260670Za5H3",
+            "update_time": 1756360476,
+            "uuid": "cf516351e19c3810",
+            "mapping": {
+                "20": {
+                    "code": "switch_led",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "21": {
+                    "code": "work_mode",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "white",
+                            "colour",
+                            "scene",
+                            "music"
+                        ]
+                    }
+                },
+                "22": {
+                    "code": "bright_value_v2",
+                    "type": "Integer",
+                    "values": {
+                        "min": 10,
+                        "max": 1000,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "23": {
+                    "code": "temp_value_v2",
+                    "type": "Integer",
+                    "values": {
+                        "min": 0,
+                        "max": 1000,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "24": {
+                    "code": "colour_data_v2",
+                    "type": "Json",
+                    "raw_values": "{\"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}}",
+                    "values": {
+                        "h": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        }
+                    }
+                },
+                "25": {
+                    "code": "scene_data_v2",
+                    "type": "Json",
+                    "raw_values": "{\"scene_num\":{\"min\":1,\"scale\":0,\"max\":8,\"step\":1},\"scene_units\": {\"unit_change_mode\":{\"range\":[\"static\",\"jump\",\"gradient\"]},\"unit_switch_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"unit_gradient_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"bright\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"temperature\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}}}",
+                    "values": {
+                        "scene_num": {
+                            "min": 1,
+                            "scale": 0,
+                            "max": 8,
+                            "step": 1
+                        },
+                        "scene_units": {
+                            "unit_change_mode": {
+                                "range": [
+                                    "static",
+                                    "jump",
+                                    "gradient"
+                                ]
+                            },
+                            "unit_switch_duration": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 100,
+                                "step": 1
+                            },
+                            "unit_gradient_duration": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 100,
+                                "step": 1
+                            },
+                            "bright": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "temperature": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "h": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 360,
+                                "step": 1
+                            },
+                            "s": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "v": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 1000,
+                                "step": 1
+                            }
+                        }
+                    }
+                },
+                "26": {
+                    "code": "countdown_1",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "s",
+                        "min": 0,
+                        "max": 86400,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "28": {
+                    "code": "control_data",
+                    "type": "Json",
+                    "raw_values": "{\"change_mode\":{\"range\":[\"direct\",\"gradient\"]}, \"bright\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"temperature\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "change_mode": {
+                            "range": [
+                                "direct",
+                                "gradient"
+                            ]
+                        },
+                        "bright": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "temperature": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "h": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                },
+                "30": {
+                    "code": "rhythm_mode",
+                    "type": "Raw",
+                    "values": {
+                        "maxlen": "255"
+                    }
+                },
+                "31": {
+                    "code": "sleep_mode",
+                    "type": "Raw",
+                    "values": {
+                        "maxlen": "255"
+                    }
+                },
+                "32": {
+                    "code": "wakeup_mode",
+                    "type": "Raw",
+                    "values": {
+                        "maxlen": "255"
+                    }
+                },
+                "33": {
+                    "code": "power_memory",
+                    "type": "Raw",
+                    "values": {}
+                },
+                "209": {
+                    "code": "cycle_timing",
+                    "type": "Raw",
+                    "values": {}
+                },
+                "210": {
+                    "code": "random_timing",
+                    "type": "Raw",
+                    "values": {}
+                }
+            }
+        },
+        {
+            "active_time": 1756360471,
+            "biz_type": 18,
+            "category": "dj",
+            "create_time": 1748323278,
+            "icon": "smart/icon/ay1480002761059me2zH/d978444634092cd71fb315c6281e2a35.png",
+            "id": "eba9b9f647f89e4dcaxard",
+            "ip": "172.56.169.169",
+            "lat": "0",
+            "local_key": "^xaKtf}P?6GK7u:x",
+            "lon": "0",
+            "model": "GN-BW413-999",
+            "name": "bedroom fan light 1",
+            "online": true,
+            "owner_id": "262432158",
+            "product_id": "dtyjge1wpicrnvyd",
+            "product_name": "Geeni BW413 Smart Bulb",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": true
+                },
+                {
+                    "code": "work_mode",
+                    "value": "white"
+                },
+                {
+                    "code": "bright_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "temp_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "colour_data_v2",
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
+                },
+                {
+                    "code": "scene_data_v2",
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":200,\"h\":0,\"s\":0,\"temperature\":0,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":0}]}"
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "control_data",
+                    "value": ""
+                },
+                {
+                    "code": "rhythm_mode",
+                    "value": "AAAAAAA="
+                },
+                {
+                    "code": "sleep_mode",
+                    "value": "AAA="
+                },
+                {
+                    "code": "wakeup_mode",
+                    "value": "AAA="
+                },
+                {
+                    "code": "power_memory",
+                    "value": "AAEAAAPoA+gD6APo"
+                },
+                {
+                    "code": "cycle_timing",
+                    "value": "AAAA"
+                },
+                {
+                    "code": "random_timing",
+                    "value": "AAAA"
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1756360260670Za5H3",
+            "update_time": 1756360473,
+            "uuid": "48913f4e4dc86ea9"
+        },
+        {
+            "active_time": 1756360466,
+            "biz_type": 18,
+            "category": "dj",
+            "create_time": 1611445131,
+            "icon": "smart/device_icon/az1611444741843yyMpT/1674186095.388724.png",
+            "id": "eb51b5228a683b1c24x2rb",
+            "ip": "172.56.169.169",
+            "lat": "0",
+            "local_key": "2MJC&=to&Y@WRf=;",
+            "lon": "0",
+            "model": "",
+            "name": "workbench ceiling right",
+            "online": true,
+            "owner_id": "262432158",
+            "product_id": "cqekgipywslyavsr",
+            "product_name": "Merkury BW904 Smart Bulb",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": true
+                },
+                {
+                    "code": "work_mode",
+                    "value": "white"
+                },
+                {
+                    "code": "bright_value",
+                    "value": 255
+                },
+                {
+                    "code": "colour_data",
+                    "value": "{\"h\":0.0,\"s\":255.0,\"v\":255.0}"
+                },
+                {
+                    "code": "flash_scene_1",
+                    "value": "{\"bright\":255,\"frequency\":50,\"hsv\":[{\"h\":120.0,\"s\":255.0,\"v\":255.0}],\"temperature\":255}"
+                },
+                {
+                    "code": "flash_scene_2",
+                    "value": "{\"bright\":255,\"frequency\":50,\"hsv\":[{\"h\":0.0,\"s\":255.0,\"v\":255.0},{\"h\":120.0,\"s\":255.0,\"v\":255.0},{\"h\":240.0,\"s\":255.0,\"v\":255.0}],\"temperature\":255}"
+                },
+                {
+                    "code": "flash_scene_3",
+                    "value": "{\"bright\":255,\"frequency\":50,\"hsv\":[{\"h\":0.0,\"s\":255.0,\"v\":255.0}],\"temperature\":255}"
+                },
+                {
+                    "code": "flash_scene_4",
+                    "value": "{\"bright\":255,\"frequency\":50,\"hsv\":[{\"h\":0.0,\"s\":255.0,\"v\":255.0},{\"h\":120.0,\"s\":255.0,\"v\":255.0},{\"h\":60.0,\"s\":255.0,\"v\":255.0},{\"h\":300.0,\"s\":255.0,\"v\":255.0},{\"h\":240.0,\"s\":255.0,\"v\":255.0}],\"temperature\":255}"
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1756360260670Za5H3",
+            "update_time": 1756360467,
+            "uuid": "1feb4ff7cf795b43"
+        },
+        {
+            "active_time": 1756360460,
+            "biz_type": 18,
+            "category": "dj",
+            "create_time": 1748323274,
+            "icon": "smart/icon/ay1480002761059me2zH/d978444634092cd71fb315c6281e2a35.png",
+            "id": "eb18a6668f6d0ee930u0oy",
+            "ip": "172.56.169.169",
+            "lat": "0",
+            "local_key": "K1(pfv`Nz8;U&lcD",
+            "lon": "0",
+            "model": "GN-BW413-999",
+            "name": "bedroom fan light 2",
+            "online": true,
+            "owner_id": "262432158",
+            "product_id": "dtyjge1wpicrnvyd",
+            "product_name": "Geeni BW413 Smart Bulb",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": true
+                },
+                {
+                    "code": "work_mode",
+                    "value": "white"
+                },
+                {
+                    "code": "bright_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "temp_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "colour_data_v2",
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
+                },
+                {
+                    "code": "scene_data_v2",
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":200,\"h\":0,\"s\":0,\"temperature\":0,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":0}]}"
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "control_data",
+                    "value": ""
+                },
+                {
+                    "code": "rhythm_mode",
+                    "value": "AAAAAAA="
+                },
+                {
+                    "code": "sleep_mode",
+                    "value": "AAA="
+                },
+                {
+                    "code": "wakeup_mode",
+                    "value": "AAA="
+                },
+                {
+                    "code": "power_memory",
+                    "value": "AAEAAAPoA+gD6APo"
+                },
+                {
+                    "code": "cycle_timing",
+                    "value": "AAAA"
+                },
+                {
+                    "code": "random_timing",
+                    "value": "AAAA"
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1756360260670Za5H3",
+            "update_time": 1756360461,
+            "uuid": "29e1c507302c1e7e"
+        },
+        {
+            "active_time": 1756360446,
+            "biz_type": 18,
+            "category": "cz",
+            "create_time": 1674711183,
+            "icon": "smart/device_icon/az1611444741843yyMpT/1685685181.450247.png",
+            "id": "eb7b63f4a86fdd4f36iq3y",
+            "ip": "172.56.169.169",
+            "lat": "0",
+            "local_key": "Qi=pyU|.v*4!Q*.4",
+            "lon": "0",
+            "model": "",
+            "name": "Workbench Lamp",
+            "online": true,
+            "owner_id": "262432158",
+            "product_id": "ngz61xb9geqasymc",
+            "product_name": "iHome WW117 Smart Plug",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "relay_status",
+                    "value": "last"
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1756360260670Za5H3",
+            "update_time": 1756360448,
+            "uuid": "778dad8f5d03d456"
+        }
+    ],
+    "success": true,
+    "t": 1756360511655,
+    "tid": "8f6590df83d311f0ba1aaeb29850d79f",
+    "file": {
+        "name": "tuya-raw.json",
+        "description": "Full raw list of Tuya devices.",
+        "account": "5vtvqx5xr8de9gngevxu",
+        "date": "2025-08-27T22:55:12.522007",
+        "tinytuya": "1.17.4"
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "bf1234567890abcdef",
+        "name": "Living Room Lamp",
+        "ip": "192.168.1.100", 
+        "key": "1234567890abcdef",
+        "version": "3.3",
+        "device_type": "bulb"
+    },
+    {
+        "id": "ef9876543210fedcba",
+        "name": "Kitchen Outlet", 
+        "ip": "192.168.1.101",
+        "key": "fedcba0987654321",
+        "version": "3.3",
+        "device_type": "outlet"
+    },
+    {
+        "id": "ab1122334455667788",
+        "name": "Bedroom Switch",
+        "ip": "192.168.1.102", 
+        "key": "abcdef1234567890",
+        "version": "3.1",
+        "device_type": "switch"
+    }
+]

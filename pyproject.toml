@@ -3,7 +3,7 @@ name = "tuya-mcp-server"
 version = "0.1.0"
 description = "MCP server for controlling Tuya smart home devices"
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Tuya MCP Server Contributors", email = ""}
 ]
 dependencies = [
     "mcp",
@@ -16,6 +16,9 @@ requires-python = ">=3.8"
 [project.scripts]
 tuya-mcp-server = "main:main"
 
+[project.gui-scripts]
+# Optional: Add GUI script if needed
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
@@ -24,4 +27,16 @@ build-backend = "hatchling.build"
 dev = [
     "pytest",
     "pytest-asyncio"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/main.py",
+    "/devices.json.example",
+    "/README.md",
+    "/docs"
 ]
